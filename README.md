@@ -10,7 +10,7 @@ VideoGamesDB is a demo program that demonstrates the [SideScroll](https://github
 * Create Bookmarks to share links between users
 * Data Repos let you specify attributes for saving & loading data and links locally
 
-![Psychonauts](/Images/Screenshots/Psychonauts2.png)
+![Psychonauts](/Images/Screenshots/PsychonautsAndCharts.png)
 
 
 * [Setup](Docs/Setup.md)
