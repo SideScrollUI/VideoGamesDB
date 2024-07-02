@@ -1,9 +1,9 @@
 # VideoGamesDB
 ---
-VideoGamesDB is a demo program that demonstrates the [Atlas](https://github.com/garyhertel/Atlas) UI framework using the AvaloniaUI library. 
+VideoGamesDB is a demo program that demonstrates the [SideScroll](https://github.com/garyhertel/SideScroll) UI framework using the AvaloniaUI library. 
 
-# Atlas
-* Atlas is a tool for exploring multiple paths of a tree at once
+# SideScroll
+* SideScroll is a tool for exploring multiple paths of a tree at once
 * Follow multiple tabs 20 or more levels deep. New tabs will load as you scroll
 * Cross Platform UI Framework written in C#
 * Navigator remembers all previous selections
@@ -14,7 +14,7 @@ VideoGamesDB is a demo program that demonstrates the [Atlas](https://github.com/
 
 
 * [Setup](Docs/Setup.md)
-* [Atlas](https://github.com/garyhertel/Atlas)
+* [SideScroll](https://github.com/garyhertel/SideScroll)
 
 ## License
 ---

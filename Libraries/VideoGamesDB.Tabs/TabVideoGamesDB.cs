@@ -1,7 +1,8 @@
-using Atlas.Core;
-using Atlas.Tabs;
-using Atlas.Tabs.Samples;
-using Atlas.UI.Avalonia.Tabs;
+using SideScroll;
+using SideScroll.Tabs;
+using SideScroll.Tabs.Lists;
+using SideScroll.Tabs.Samples;
+using SideScroll.UI.Avalonia.Tabs;
 
 namespace VideoGamesDB.Tabs;
 

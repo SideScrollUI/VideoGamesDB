@@ -1,5 +1,5 @@
 
-using Atlas.Core;
+using SideScroll.Attributes;
 
 namespace VideoGamesDB.Tabs;
 

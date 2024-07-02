@@ -1,6 +1,6 @@
-using Atlas.Core;
-using Atlas.Extensions;
+using SideScroll.Extensions;
 using CsvHelper;
+using SideScroll;
 
 namespace VideoGamesDB.Tabs;
 

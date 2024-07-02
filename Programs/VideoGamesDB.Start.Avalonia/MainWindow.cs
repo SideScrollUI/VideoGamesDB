@@ -1,7 +1,8 @@
-using Atlas.Tabs;
-using Atlas.UI.Avalonia;
-using Atlas.UI.Avalonia.Charts.LiveCharts;
-using Atlas.UI.Avalonia.ScreenCapture;
+using SideScroll.Tabs;
+using SideScroll.Tabs.Settings;
+using SideScroll.UI.Avalonia;
+using SideScroll.UI.Avalonia.Charts.LiveCharts;
+using SideScroll.UI.Avalonia.ScreenCapture;
 using VideoGamesDB.Tabs;
 
 namespace VideoGamesDB.Start.Avalonia;

@@ -1,6 +1,8 @@
-using Atlas.Core;
-using Atlas.Core.Charts;
-using Atlas.Tabs;
+using SideScroll;
+using SideScroll.Charts;
+using SideScroll.Collections;
+using SideScroll.Tabs;
+using SideScroll.Tabs.Lists;
 
 namespace VideoGamesDB.Tabs;
 

@@ -19,13 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="12.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Imports\Atlas\Libraries\Atlas.Core\Atlas.Core.csproj" />
-    <ProjectReference Include="..\..\Imports\Atlas\Libraries\Atlas.Tabs.Samples\Atlas.Tabs.Samples.csproj" />
-    <ProjectReference Include="..\..\Imports\Atlas\Libraries\Atlas.Tabs\Atlas.Tabs.csproj" />
-    <ProjectReference Include="..\..\Imports\Atlas\Libraries\Atlas.UI.Avalonia\Atlas.UI.Avalonia.csproj" />
+    <PackageReference Include="SideScroll.UI.Avalonia" Version="$(SideScrollVersion)" />
   </ItemGroup>
 
 </Project>
