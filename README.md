@@ -1,20 +1,22 @@
 # VideoGamesDB
 ---
-VideoGamesDB is a demo program that demonstrates the [SideScroll](https://github.com/garyhertel/SideScroll) UI framework using the AvaloniaUI library. 
+VideoGamesDB is a sample application using the [SideScroll](https://github.com/SideScrollUI/SideScroll) UI framework for AvaloniaUI. 
 
 # SideScroll
-* SideScroll is a tool for exploring multiple paths of a tree at once
-* Follow multiple tabs 20 or more levels deep. New tabs will load as you scroll
-* Cross Platform UI Framework written in C#
-* Navigator remembers all previous selections
-* Create Bookmarks to share links between users
-* Data Repos let you specify attributes for saving & loading data and links locally
+* .NET Cross Platform UI Framework that can run on any Windows, MacOS, or Linux system
+* Follow multiple tabs 20 or more levels deep. New tabs will load as you scroll to the right
+* Previous selections are used to automatically select the most likely options
+* Create Links to share views with others
+* DataRepos manage your local saving & loading
 
-![Psychonauts](/Images/Screenshots/PsychonautsAndCharts.png)
+#### Light Theme
+![Light Theme](Images/Screenshots/PsychonautsAndCharts.png)
+#### Dark Theme
+![Dark Theme](Images/Screenshots/PsychonautsAndChartsDark.png)
 
 
 * [Setup](Docs/Setup.md)
-* [SideScroll](https://github.com/garyhertel/SideScroll)
+* [SideScroll Library](https://github.com/SideScrollUI/SideScroll)
 
 ## License
 ---

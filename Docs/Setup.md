@@ -1,7 +1,7 @@
 # Setup
 ---
 1. Clone VideoGamesDB
-    - `git clone https://github.com/garyhertel/VideoGamesDB.git`
+    - `git clone https://github.com/SideScrollUI/VideoGamesDB.git`
     - `cd VideoGamesDB`
 2. Console
     - `dotnet build`
