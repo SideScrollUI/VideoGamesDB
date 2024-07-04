@@ -15,13 +15,14 @@ public class MainWindow : BaseWindow
 
 		LiveChartCreator.Register();
 		ScreenCapture.AddControlTo(TabViewer);
+		TabViewer.Toolbar?.AddVersion();
 	}
 
 	public static ProjectSettings Settings => new()
 	{
 		Name = "VideoGamesDB",
 		LinkType = "VideoGamesDB",
-		Version = new Version(1, 0),
-		DataVersion = new Version(1, 0),
+		Version = new Version(0, 1),
+		DataVersion = new Version(0, 1),
 	};
 }

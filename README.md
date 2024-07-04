@@ -10,10 +10,9 @@ VideoGamesDB is a sample application using the [SideScroll](https://github.com/S
 * DataRepos manage your local saving & loading
 
 #### Light Theme
-![Light Theme](Images/Screenshots/PsychonautsAndCharts.png)
+![Light Theme](Images/Screenshots/PsychonautsAndChartsLight.png)
 #### Dark Theme
 ![Dark Theme](Images/Screenshots/PsychonautsAndChartsDark.png)
-
 
 * [Setup](Docs/Setup.md)
 * [SideScroll Library](https://github.com/SideScrollUI/SideScroll)
