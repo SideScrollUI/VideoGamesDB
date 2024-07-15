@@ -1,12 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Configurations>Debug;Release;DebugX86</Configurations>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-
   <ItemGroup>
     <None Remove="Assets\Video_Games_Sales_as_at_22_Dec_2016.csv" />
   </ItemGroup>
