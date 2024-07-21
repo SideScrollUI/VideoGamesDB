@@ -25,7 +25,7 @@ public class TabVideoGameCharts(Database database) : ITab
 			};
 		}
 
-		private object GetPlatformChart()
+		private TabModel GetPlatformChart()
 		{
 			var chartView = new ChartView("Sales by Platform")
 			{
@@ -44,7 +44,7 @@ public class TabVideoGameCharts(Database database) : ITab
 			return model;
 		}
 
-		private object GetPublisherChart()
+		private TabModel GetPublisherChart()
 		{
 			var chartView = new ChartView("Sales by Publisher")
 			{
@@ -63,7 +63,7 @@ public class TabVideoGameCharts(Database database) : ITab
 			return model;
 		}
 
-		private object GetDeveloperChart()
+		private TabModel GetDeveloperChart()
 		{
 			var chartView = new ChartView("Sales by Developer")
 			{
@@ -82,7 +82,7 @@ public class TabVideoGameCharts(Database database) : ITab
 			return model;
 		}
 
-		private object GetSalesChart()
+		private TabModel GetSalesChart()
 		{
 			var listSeries = new ListSeries("Sales", tab.Database.ReleaseViews, nameof(ReleaseView.YearOfRelease), nameof(ReleaseView.Global_Sales))
 			{
