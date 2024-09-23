@@ -42,8 +42,7 @@ public class Database
 			Developer developer = AddDeveloper(releaseView);
 			Genre genre = AddGenre(releaseView);
 
-			//if (!IdxGameName.ContainsKey(releaseData.Name))
-			//	IdxGameName.Add(releaseData.Name, releaseData);
+			// IdxGameName.TryAddValue(releaseData.Name, releaseData);
 
 			publisher.Titles.Add(gameTitle);
 			developer.Titles.Add(gameTitle);

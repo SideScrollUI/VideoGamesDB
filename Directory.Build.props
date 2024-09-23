@@ -1,10 +1,10 @@
 <Project>
   <PropertyGroup>
-    <Version>0.5</Version>
+    <Version>0.6</Version>
 
-    <SideScrollVersion>0.5</SideScrollVersion>
-    <AvaloniaVersion>11.1.1</AvaloniaVersion>
-    <AvaloniaEditVersion>11.0.6</AvaloniaEditVersion>
+    <SideScrollVersion>0.6</SideScrollVersion>
+    <AvaloniaVersion>11.1.3</AvaloniaVersion>
+    <AvaloniaEditVersion>11.1.0</AvaloniaEditVersion>
 
     <TargetFramework>net8.0</TargetFramework>
     <Configurations>Debug;Release;DebugX86</Configurations>
