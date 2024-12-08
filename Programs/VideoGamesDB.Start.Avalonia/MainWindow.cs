@@ -1,9 +1,9 @@
 using Avalonia.Controls;
+using SideScroll.Avalonia;
+using SideScroll.Avalonia.Charts.LiveCharts;
+using SideScroll.Avalonia.ScreenCapture;
 using SideScroll.Tabs;
 using SideScroll.Tabs.Settings;
-using SideScroll.UI.Avalonia;
-using SideScroll.UI.Avalonia.Charts.LiveCharts;
-using SideScroll.UI.Avalonia.ScreenCapture;
 using VideoGamesDB.Start.Avalonia.Assets;
 using VideoGamesDB.Tabs;
 

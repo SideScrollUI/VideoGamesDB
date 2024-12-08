@@ -1,8 +1,8 @@
 using SideScroll;
+using SideScroll.Avalonia.Tabs;
 using SideScroll.Tabs;
 using SideScroll.Tabs.Lists;
 using SideScroll.Tabs.Samples;
-using SideScroll.UI.Avalonia.Tabs;
 
 namespace VideoGamesDB.Tabs;
 

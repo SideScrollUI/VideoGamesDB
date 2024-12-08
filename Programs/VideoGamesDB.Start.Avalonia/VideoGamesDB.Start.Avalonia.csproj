@@ -45,8 +45,8 @@
     <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
     <PackageReference Include="Avalonia.Fonts.Inter" Version="$(AvaloniaVersion)" />
-    <PackageReference Include="SideScroll.UI.Avalonia.Charts.LiveCharts" Version="$(SideScrollVersion)" />
-    <PackageReference Include="SideScroll.UI.Avalonia.ScreenCapture" Version="$(SideScrollVersion)" />
+    <PackageReference Include="SideScroll.Avalonia.Charts.LiveCharts" Version="$(SideScrollVersion)" />
+    <PackageReference Include="SideScroll.Avalonia.ScreenCapture" Version="$(SideScrollVersion)" />
   </ItemGroup>
 
   <ItemGroup>

@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="12.1.1" />
-    <PackageReference Include="SideScroll.UI.Avalonia" Version="$(SideScrollVersion)" />
+    <PackageReference Include="SideScroll.Avalonia" Version="$(SideScrollVersion)" />
   </ItemGroup>
 
 </Project>
