@@ -11,7 +11,7 @@ namespace VideoGamesDB.Start.Avalonia;
 
 public class MainWindow : BaseWindow
 {
-	public MainWindow() : base(new Project(Settings))
+	public MainWindow() : base(Project.Load(Settings))
 	{
 		AddTab(new TabVideoGamesDB());
 
