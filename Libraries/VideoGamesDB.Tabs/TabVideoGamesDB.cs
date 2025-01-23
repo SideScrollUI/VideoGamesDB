@@ -23,7 +23,7 @@ public class TabVideoGamesDB : ITab
 				//new("Platforms", new TabPlatforms()),
 				new("Database", new TabDatabase(_database!)),
 				new("Charts", new TabVideoGameCharts(_database!)),
-				new("Links", new TabBookmarks(Project)),
+				new("Links", new TabLinks()),
 				new("Settings", new TabAvaloniaSettings()),
 				new("Samples", new TabSamples()),
 			};

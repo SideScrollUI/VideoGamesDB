@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Version>0.9.1</Version>
 
-    <SideScrollVersion>0.9.1</SideScrollVersion>
+    <SideScrollVersion>0.9.2</SideScrollVersion>
     <AvaloniaVersion>11.2.3</AvaloniaVersion>
     <AvaloniaEditVersion>11.1.0</AvaloniaEditVersion>
 

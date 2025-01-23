@@ -70,8 +70,7 @@ public class Database
 			IdxPlatformNames.Add(platformName, platform);
 			Platforms.Add(platform);
 		}
-		if (!platform.Releases.ContainsKey(releaseView.Name!))
-			platform.Releases.Add(releaseView.Name!, releaseView);
+		platform.Releases.TryAdd(releaseView.Name!, releaseView);
 		releaseView.Platform = platform;
 		return platform;
 	}
