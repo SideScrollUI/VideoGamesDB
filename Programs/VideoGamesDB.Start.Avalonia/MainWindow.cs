@@ -1,6 +1,6 @@
 using Avalonia.Controls;
-using SideScroll.Avalonia;
 using SideScroll.Avalonia.Charts.LiveCharts;
+using SideScroll.Avalonia.Controls;
 using SideScroll.Avalonia.ScreenCapture;
 using SideScroll.Tabs;
 using SideScroll.Tabs.Settings;

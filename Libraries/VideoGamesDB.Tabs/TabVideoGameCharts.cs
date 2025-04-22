@@ -8,7 +8,7 @@ namespace VideoGamesDB.Tabs;
 
 public class TabVideoGameCharts(Database database) : ITab
 {
-	public Database Database = database;
+	public Database Database => database;
 
 	public TabInstance Create() => new Instance(this);
 
