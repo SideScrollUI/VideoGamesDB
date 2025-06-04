@@ -27,6 +27,6 @@ public class MainWindow : BaseWindow
 		Name = "VideoGamesDB",
 		LinkType = "VideoGamesDB",
 		Version = ProjectSettings.ProgramVersion(),
-		DataVersion = new Version(0, 2),
+		DataVersion = new Version(0, 9, 8),
 	};
 }
