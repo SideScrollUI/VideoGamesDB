@@ -13,7 +13,7 @@ public class MainWindow : BaseWindow
 {
 	public MainWindow() : base(Project.Load(Settings))
 	{
-		AddTab(new TabVideoGamesDB());
+		LoadTab(new TabVideoGamesDB());
 
 		LiveChartCreator.Register();
 		ScreenCapture.AddControlTo(TabViewer);
