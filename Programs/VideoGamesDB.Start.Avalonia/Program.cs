@@ -4,6 +4,7 @@ namespace VideoGamesDB.Start.Avalonia;
 
 class Program
 {
+    [STAThread]
 	static int Main(string[] args)
 	{
 		AppBuilder builder = BuildAvaloniaApp();
