@@ -17,7 +17,7 @@ public class MainWindow : BaseWindow
 
 		LiveChartCreator.Register();
 		ScreenCapture.AddControlTo(TabViewer);
-		TabViewer.Toolbar?.AddVersion();
+		TabViewer.Toolbar?.AddRightControls();
 
 		Icon = new WindowIcon(Icons.Logo.Stream);
 	}
@@ -27,6 +27,6 @@ public class MainWindow : BaseWindow
 		Name = "VideoGamesDB",
 		LinkType = "VideoGamesDB",
 		Version = ProjectSettings.ProgramVersion(),
-		DataVersion = new Version(0, 12),
+		DataVersion = new Version(0, 14),
 	};
 }
