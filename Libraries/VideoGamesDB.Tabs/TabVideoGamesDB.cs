@@ -1,7 +1,7 @@
 using SideScroll;
 using SideScroll.Avalonia.Tabs;
 using SideScroll.Tabs;
-using SideScroll.Tabs.Bookmarks;
+using SideScroll.Tabs.Bookmarks.Tabs;
 using SideScroll.Tabs.Lists;
 using SideScroll.Tabs.Samples;
 
@@ -11,7 +11,7 @@ public class TabVideoGamesDB : ITab
 {
 	public TabInstance Create() => new Instance();
 
-	public class Instance : TabInstance
+	private class Instance : TabInstance
 	{
 		private Database? _database;
 

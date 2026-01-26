@@ -9,7 +9,7 @@ public class TabDatabase(Database database) : ITab
 
 	public TabInstance Create() => new Instance(this);
 
-	public class Instance(TabDatabase tab) : TabInstance
+	private class Instance(TabDatabase tab) : TabInstance
 	{
 		public TabDatabase Tab => tab;
 

@@ -12,7 +12,7 @@ public class TabVideoGameCharts(Database database) : ITab
 
 	public TabInstance Create() => new Instance(this);
 
-	public class Instance(TabVideoGameCharts tab) : TabInstance
+	private class Instance(TabVideoGameCharts tab) : TabInstance
 	{
 		public override void Load(Call call, TabModel model)
 		{

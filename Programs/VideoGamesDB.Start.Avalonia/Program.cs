@@ -2,7 +2,7 @@ using Avalonia;
 
 namespace VideoGamesDB.Start.Avalonia;
 
-class Program
+internal static class Program
 {
     [STAThread]
 	static int Main(string[] args)
@@ -12,7 +12,7 @@ class Program
 		return builder.StartWithClassicDesktopLifetime(args);
 	}
 
-	public static AppBuilder BuildAvaloniaApp()
+	private static AppBuilder BuildAvaloniaApp()
 		=> AppBuilder.Configure<App>()
 			.UsePlatformDetect()
 			.WithInterFont()
