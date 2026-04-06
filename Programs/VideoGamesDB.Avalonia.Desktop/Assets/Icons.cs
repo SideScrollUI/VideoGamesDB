@@ -1,11 +1,11 @@
 using SideScroll.Resources;
 using System.Reflection;
 
-namespace VideoGamesDB.Start.Avalonia.Assets;
+namespace VideoGamesDB.Avalonia.Desktop.Assets;
 
 public static class Icons
 {
-	public const string IconPath = "VideoGamesDB.Start.Avalonia.Assets";
+	public const string IconPath = "VideoGamesDB.Avalonia.Desktop.Assets";
 
 	public static Assembly Assembly => Assembly.GetExecutingAssembly();
 

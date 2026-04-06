@@ -1,6 +1,6 @@
 using Avalonia;
 
-namespace VideoGamesDB.Start.Avalonia;
+namespace VideoGamesDB.Avalonia.Desktop;
 
 internal static class Program
 {

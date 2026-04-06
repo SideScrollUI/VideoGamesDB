@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{3D23574F-A099-4C34-BF46-48A89F2A3120}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGamesDB.Start.Avalonia", "Programs\VideoGamesDB.Start.Avalonia\VideoGamesDB.Start.Avalonia.csproj", "{A2C10DA0-DEA9-469F-9DBE-07203DF82870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGamesDB.Avalonia.Desktop", "Programs\VideoGamesDB.Avalonia.Desktop\VideoGamesDB.Avalonia.Desktop.csproj", "{A2C10DA0-DEA9-469F-9DBE-07203DF82870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imports", "Imports", "{6E95ACC0-3C1A-433F-B1BD-3A498AC09695}"
 EndProject

@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace VideoGamesDB.Start.Avalonia;
+namespace VideoGamesDB.Avalonia.Desktop;
 
 public class App : Application
 {

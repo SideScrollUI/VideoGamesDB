@@ -4,10 +4,10 @@ using SideScroll.Avalonia.Controls;
 using SideScroll.Avalonia.Controls.ScreenCapture;
 using SideScroll.Tabs;
 using SideScroll.Tabs.Settings;
-using VideoGamesDB.Start.Avalonia.Assets;
+using VideoGamesDB.Avalonia.Desktop.Assets;
 using VideoGamesDB.Tabs;
 
-namespace VideoGamesDB.Start.Avalonia;
+namespace VideoGamesDB.Avalonia.Desktop;
 
 public class MainWindow : BaseWindow
 {
