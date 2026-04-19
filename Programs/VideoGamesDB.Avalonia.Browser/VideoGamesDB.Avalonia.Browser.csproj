@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-browser</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PublishTrimmed>false</PublishTrimmed>
+    <IsPackable>false</IsPackable>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
+    <!-- Enable IDBFS for persistent storage -->
+    <WasmBuildNative>true</WasmBuildNative>
+    <EmccExtraArgs>-lidbfs.js</EmccExtraArgs>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Browser" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Microsoft.JSInterop" Version="8.0.0" />
+    <PackageReference Include="SideScroll.Serialize.Browser" Version="$(SideScrollVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\VideoGamesDB.Avalonia\VideoGamesDB.Avalonia.csproj" />
+  </ItemGroup>
+
+</Project>

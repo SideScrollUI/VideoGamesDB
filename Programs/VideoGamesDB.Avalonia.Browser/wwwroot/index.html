@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VideoGamesDB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Dynamically set base href based on environment
+        // Use /VideoGamesDB/ for GitHub Pages, / for local development
+        const base = document.createElement('base');
+        base.href = window.location.hostname === 'sidescrollui.github.io' ? '/VideoGamesDB/' : '/';
+        document.head.appendChild(base);
+    </script>
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body style="margin: 0; overflow: hidden">
+<div id="out">
+    <div class="avalonia-splash">
+        <h2>
+            <a href="https://github.com/SideScrollUI/VideoGamesDB" target="_blank">
+                <img class="icon" src="SideScroll.svg" alt="VideoGamesDB Logo" />
+            </a>
+            <br />Loading
+        </h2>
+    </div>
+</div>
+<script type='module' src="./main.js"></script>
+</body>
+
+</html>

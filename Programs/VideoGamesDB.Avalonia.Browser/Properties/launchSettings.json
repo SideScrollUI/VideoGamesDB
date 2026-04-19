@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "VideoGamesDB.Avalonia.Browser": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:13319;http://localhost:13320"
+    }
+  }
+}

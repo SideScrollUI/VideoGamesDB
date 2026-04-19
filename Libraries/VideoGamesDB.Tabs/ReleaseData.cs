@@ -1,6 +1,7 @@
-using SideScroll.Extensions;
 using CsvHelper;
 using SideScroll;
+using SideScroll.Extensions;
+using System.Reflection;
 
 namespace VideoGamesDB.Tabs;
 
@@ -40,7 +41,9 @@ public class ReleaseData
 
 		public void Load(Call call)
 		{
-			using var reader = new StreamReader(Filename);
+			var assembly = Assembly.GetExecutingAssembly();
+			using var stream = assembly.GetManifestResourceStream("VideoGamesDB.Tabs.Assets.Video_Games_Sales_as_at_22_Dec_2016.csv");
+			using var reader = new StreamReader(stream!);
 			using var csv = new CsvReader(reader);
 
 			Items = csv.GetRecords<ReleaseData>().ToList();

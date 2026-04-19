@@ -5,9 +5,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\Video_Games_Sales_as_at_22_Dec_2016.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <EmbeddedResource Include="Assets\Video_Games_Sales_as_at_22_Dec_2016.csv" />
   </ItemGroup>
 
   <ItemGroup>

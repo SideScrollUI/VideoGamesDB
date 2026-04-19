@@ -1,8 +1,9 @@
 using Avalonia;
+using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace VideoGamesDB.Avalonia.Desktop;
+namespace VideoGamesDB.Avalonia;
 
 public class App : Application
 {
@@ -11,11 +12,17 @@ public class App : Application
 		AvaloniaXamlLoader.Load(this);
 	}
 
+	protected virtual Control CreateSingleView() => new MainView();
+
 	public override void OnFrameworkInitializationCompleted()
 	{
 		if (ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktopLifetime)
 		{
 			desktopLifetime.MainWindow = new MainWindow();
+		}
+		else if (ApplicationLifetime is ISingleViewApplicationLifetime singleViewLifetime)
+		{
+			singleViewLifetime.MainView = CreateSingleView();
 		}
 
 		base.OnFrameworkInitializationCompleted();

@@ -4,7 +4,7 @@ namespace VideoGamesDB.Avalonia.Desktop;
 
 internal static class Program
 {
-    [STAThread]
+	[STAThread]
 	static int Main(string[] args)
 	{
 		AppBuilder builder = BuildAvaloniaApp();
