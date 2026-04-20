@@ -2,9 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <EnableDefaultCompileItems>False</EnableDefaultCompileItems>
-    <ApplicationIcon />
-    <StartupObject />
+    <ApplicationIcon>Assets\Logo\SideScroll.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -12,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="**\*.cs" Exclude="obj\**;App.xaml.cs;MainWindow.cs;Assets\Icons.cs" />
+    <EmbeddedResource Include="Assets\Logo\SideScroll.ico" />
   </ItemGroup>
 
   <ItemGroup>
