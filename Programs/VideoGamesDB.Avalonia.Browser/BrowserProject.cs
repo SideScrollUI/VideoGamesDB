@@ -21,8 +21,8 @@ public class BrowserProject(ProjectSettings projectSettings, UserSettings userSe
 	/// </summary>
 	public static BrowserProject Load()
 	{
-		var projectSettings = VideoGamesDBProjectSettings.Settings;
-		var defaultUserSettings = new UserSettings();
+		var projectSettings = VideoGamesDBProjectSettings.Default;
+		var defaultUserSettings = projectSettings.DefaultUserSettings;
 
 		// Create a temporary project to access Data.App for loading previously saved UserSettings
 		var tempProject = new BrowserProject(projectSettings, defaultUserSettings);

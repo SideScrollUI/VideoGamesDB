@@ -2,13 +2,13 @@ using SideScroll.Tabs.Settings;
 
 namespace VideoGamesDB.Avalonia;
 
-public static class VideoGamesDBProjectSettings
+public class VideoGamesDBProjectSettings : ProjectSettings
 {
-	public static ProjectSettings Settings => new()
+	public static VideoGamesDBProjectSettings Default => new()
 	{
 		Name = "VideoGamesDB",
 		LinkType = "VideoGamesDB",
-		Version = ProjectSettings.ProgramVersion(),
+		Version = ProgramVersion(),
 		DataVersion = new Version(0, 17),
 	};
 }
