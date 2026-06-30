@@ -1,9 +1,9 @@
 <Project>
   <PropertyGroup>
-    <Version>0.20</Version>
+    <Version>0.21</Version>
 
-    <SideScrollVersion>0.20</SideScrollVersion>
-    <AvaloniaVersion>11.3.15</AvaloniaVersion>
+    <SideScrollVersion>0.21</SideScrollVersion>
+    <AvaloniaVersion>11.3.18</AvaloniaVersion>
     <AvaloniaEditVersion>11.4.1</AvaloniaEditVersion>
 
     <TargetFramework>net8.0</TargetFramework>
