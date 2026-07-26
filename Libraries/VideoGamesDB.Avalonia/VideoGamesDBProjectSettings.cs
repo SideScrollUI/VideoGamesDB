@@ -9,6 +9,6 @@ public class VideoGamesDBProjectSettings : ProjectSettings
 		Name = "VideoGamesDB",
 		LinkType = "VideoGamesDB",
 		Version = ProgramVersion(),
-		DataVersion = new Version(0, 21),
+		DataVersion = new Version(0, 22),
 	};
 }
